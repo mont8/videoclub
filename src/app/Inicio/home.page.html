@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      inicio 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Bienvenido</ion-card-subtitle>
+        <ion-card-title>Videoclub</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+       Videoclub es una aplicacion desarrollada con ionic: 
+       Para acceder a la gestion del videoclub pulsa el siguiente boton: 
+      </ion-card-content>
+        <ion-button  routerLink="/videoclub"  expand="block"  fill="clear">
+          <ion-icon slot="icon-only" name="videocam"></ion-icon>
+           Acceso a Videoclub
+        </ion-button>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Informacion sobre el autor</ion-card-title>
+        </ion-card-header>
+      <ion-card-content>
+        Aplicacion desarrollada por Irving Montaño
+      </ion-card-content>
+        
+          <ion-button routerLink="/autor" expand="block"  fill="clear">
+            <ion-icon slot="icon-only" name="person"></ion-icon>
+             Consultar informacion 
+          </ion-button>
+          </ion-card>
+  </div>
+</ion-content>

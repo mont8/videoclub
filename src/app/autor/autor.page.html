@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+<ion-toolbar>
+  <button class="button"></button>
+  <a routerLink="/home" class="button icon-left ion-chevron-left button-clear button-dark">Back</a>
+    <ion-title>autor</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding" [fullscreen]="true">
+<ion-header collapse="root">
+</ion-header>
+
+
+<div id="contenedor"> 
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Informacion</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+     Aplicacion desarrollada por Irving Montaño. A continuacion aqui puede consultar mas informacion sobre al autor
+    </ion-card-content>
+    <ion-button routerLink="/curriculum" expand="block"  fill="clear">
+      <ion-icon slot="icon-only" name="book"></ion-icon>
+       Curriculum vitae
+    </ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-icon name="mail"></ion-icon>
+    <a href="mailto:reyesm.r48@gmail.com?subject=This%20is%20the%20subject&cc=someone_else@example.com&body=This%20is%20the%20body">
+      Correo: reyesm.r48@gmail.com
+  </a>             
+  </ion-card>
+
+  <ion-card>
+    <ion-icon name="logo-twitter"></ion-icon>
+    <a href="https://twitter.com/?lang=es">
+      Twitter: @twitter
+  </a>             
+  </ion-card>
+
+  <ion-card>
+    <ion-icon name="call"></ion-icon>
+    <a href="tel:+529983156845"   >
+      Celular: 9983156845   
+    </a>
+     
+  </ion-card>
+  
+
+</div>
+</ion-content>
